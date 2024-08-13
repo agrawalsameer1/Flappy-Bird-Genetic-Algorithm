@@ -7,4 +7,6 @@ Every player within a generation has 4 parameters that operate on 4 inputs: its 
 
 A generation contains 50 such players, and new generations are seeded based on the 5 best performing players from the previous generation. Small mutations are added to each member of a new generation to slowly approach an optimal solution. The allowed size of the mutations decrease as the players get better, so that an overly large mutation does not detract from the player's performance.
 
+All elements of this project, including the game itself, were created from scratch. Other than basic C++ standard library functions, the only external library used was SDL2 for graphics.
+
 Edited video of sample training run: [https://youtu.be/lvPr7DS7sAc](https://youtu.be/lvPr7DS7sAc)
